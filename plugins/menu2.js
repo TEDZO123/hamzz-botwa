@@ -19,7 +19,7 @@ let text = `
 ││• *SCRIPT BOT*
 ││ github.com/Nurutomo
 ││• *MY GITHUB*
-││ github.com/hamzzBot
+││ github.com/JulianKastara09
 ╰─
  • 🥇 *MY GROUPS*
       *Link*: -
