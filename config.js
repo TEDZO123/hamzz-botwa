@@ -1,8 +1,8 @@
 // Bismillahirrahmanirrahim
 // thank you to ALLAH Swt
 // thank you to Nurutomo as wabot-aq
-global.owner = ['6285826114932']
-global.mods = ['6285826114932']
+global.owner = ['6285742344873']
+global.mods = ['6285742344873']
 global.prems = []
 global.APIs = { 
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -23,10 +23,10 @@ global.APIKeys = {
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-global.packname = 'HamzzBott' 
-global.author = 'Hamzz' 
+global.packname = 'BabyBot' 
+global.author = 'JulianKastara09' 
 
-global.wait = '_*tunggu..*_'
+global.wait = '_*tunggu.. Ngab*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/D29aquiNBgw8omWOXVY327'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini'
 global.eror = '_*Server Error*_'
