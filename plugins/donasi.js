@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
 *DONATE*
- Pulsa : 085826114932
- Dana : 085850961679
+ Pulsa : 085742344873
+ Dana : 085742344873
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
