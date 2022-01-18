@@ -15,14 +15,14 @@ let text = `
 *Hii* 😎👋 ${conn.getName(m.sender)}
 
 • 📢 _*SUPPORT*_
-╭─
+╭─○
 │• *BASE BOT*
 │ github.com/Nurutomo
 │• *MY GITHUB*
 │ github.com/JulianKastara09
-╰─
+╰─○
  • 🥇 *MY GROUPS*
-      *Link*: 
+      *Link*: http://clph.pw/H9BL
  • 📮 *NOTE*
  Spam vc/call +block!
  Gunakan bot sebaik mungkin!
