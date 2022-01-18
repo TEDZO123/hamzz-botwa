@@ -19,7 +19,7 @@ const defaultMenu = {
 │• Uptime: *%uptime (%muptime)*
 ╰──`.trimStart(),
   header: '╭──「 %category 」',
-  body: '││• %cmd',
+  body: '├◇ %cmd',
   footer: '╰──\n',
   after: `
 *%npmname@^%version*
