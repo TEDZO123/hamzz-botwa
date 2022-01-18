@@ -357,7 +357,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }),
       after
     ].join('\n')
-    text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : ''
+    text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : 'Baby Bot'
     let replace = {
       '%': '%',
       p: _p, uptime, muptime,
