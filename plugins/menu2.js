@@ -12,23 +12,23 @@ function clockString(ms) {
   
 }
 let text = `
-*Hii* 👋 ${conn.getName(m.sender)}
+*Hii* 😎👋 ${conn.getName(m.sender)}
 
 • 📢 _*SUPPORT*_
 ╭─
-││• *SCRIPT BOT*
-││ github.com/Nurutomo
-││• *MY GITHUB*
-││ github.com/JulianKastara09
+│• *BASE BOT*
+│ github.com/Nurutomo
+│• *MY GITHUB*
+│ github.com/JulianKastara09
 ╰─
  • 🥇 *MY GROUPS*
-      *Link*: -
+      *Link*: 
  • 📮 *NOTE*
  Spam vc/call +block!
  Gunakan bot sebaik mungkin!
 
 `.trim()
-conn.send3ButtonImg(m.chat, thumb, text, 'Babyy', 'MENU ALL', '#nyong', 'OWNER', '.owner', 'DONASI', '.donasi', fkon)
+conn.send3ButtonImg(m.chat, thumb, text, 'Babyy Bot By Julian Kastara', '📚MENU', '#nyong', 'OWNER👤', '.owner', 'DONASI🤑', '.donasi', fkon)
 }
 
 handler.help = ['main']
