@@ -28,7 +28,7 @@ let text = `
  Gunakan bot sebaik mungkin!
 
 `.trim()
-conn.send3ButtonImg(m.chat, thumb, text, 'Babyy Bot By Julian Kastara', '📚MENU', '#nyong', 'OWNER👤', '.owner', 'DONASI🤑', '.donasi', fkon)
+conn.send3ButtonImg(m.chat, thumb, text, 'Babyy Bot By Julian Kastara', 'MENU📚', '#nyong', 'OWNER👤', '.owner', 'DONASI🤑', '.donasi', fkon)
 }
 
 handler.help = ['main']
