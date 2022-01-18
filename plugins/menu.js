@@ -324,7 +324,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     // ├ ${_p + command} tanpa kategori
     // ├ ${_p + command} owner
     // └────  
-    //     `.trim()
+    //     BabyBot
     let groups = {}
     for (let tag in tags) {
       groups[tag] = []
