@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "HamzzBot",
+          "description": "Baby Bot",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -374,7 +374,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.sendButtonLoc(m.chat, await (await fetch(`https://telegra.ph/file/446d3c03bb18807f42420.jpg`)).buffer(), text.trim(), 'HamzzX', 'ok', '.ok', m)
+    await conn.sendButtonLoc(m.chat, await (await fetch(`https://telegra.ph/file/446d3c03bb18807f42420.jpg`)).buffer(), text.trim(), 'Baby Bot By Julian Kastara 09', 'ok', '.ok', m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
