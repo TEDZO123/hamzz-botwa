@@ -27,7 +27,7 @@ global.packname = 'BabyBot'
 global.author = 'JulianKastara09' 
 
 global.wait = '_*tunggu.. Ngab*_'
-global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/D29aquiNBgw8omWOXVY327'
+global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini'
 global.eror = '_*Server Error*_'
 
