@@ -19,11 +19,11 @@ const defaultMenu = {
 │• Uptime: *%uptime (%muptime)*
 ╰──`.trimStart(),
   header: '╭──「 %category 」',
-  body: '├• %cmd',
+  body: '├❦⁩ %cmd',
   footer: '╰──\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+*BabyBot Wangsaf*
+*Owner Julian09*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
