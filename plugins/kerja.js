@@ -15,7 +15,7 @@ conn.mining = conn.mining ? conn.mining : {}
 }
 handler.help = ['ngecit']
 handler.tags = ['xp']
-handler.command = /^kerja|nguli/i
+handler.command = /^ngecit|ngecheat/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
