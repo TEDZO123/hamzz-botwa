@@ -16,16 +16,21 @@ let text = `
 
 • 📢 _*SUPPORT*_
 ╭─○
-│• *BASE BOT*
-│ github.com/Nurutomo
+│• *TEDZO BOT*
+│ https://wa.me/917736835721
 │• *MY GITHUB*
-│ github.com/JulianKastara09
+│ github.com/Tedzo-1
 ╰─○
  • 🥇 *MY GROUPS*
-      *Link*: http://clph.pw/H9BL
+      *https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t*
  • 📮 *NOTE*
- Spam vc/call +block!
- Gunakan bot sebaik mungkin!
+
+ ⬤𝗥𝗨𝗟𝗘𝗦
+
+ ◐call +block!
+ ◐dont spam bot
+ ◐this bot entertiment pupus only
+ 
 
 `.trim()
 conn.send3ButtonImg(m.chat, thumb, text, 'Babyy Bot By Julian Kastara', 'MENU📚', '#nyong', 'OWNER👤', '.owner', 'DONASI🤑', '.donasi', fkon)
