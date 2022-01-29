@@ -22,8 +22,8 @@ const defaultMenu = {
   body: '├❦⁩ %cmd',
   footer: '╰──\n',
   after: `
-*BabyBot Wangsaf*
-*Owner Julian09*
+*ʙᴏᴛ ɴᴀᴍᴇ:ᴀsʟᴜ sᴇʀ*
+*ᴏᴡɴᴇʀ: ᴛᴇᴅᴢᴏ sᴇʀ*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
