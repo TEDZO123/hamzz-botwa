@@ -14,7 +14,7 @@
 
 ## DEPLOY HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dawnfrosty/Mike-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEDZO123/hamzz-botwa)
 
 Heroku Buildpack
 | BuildPack | LINK |
