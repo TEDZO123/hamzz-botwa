@@ -185,107 +185,119 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, ${name}`.trim(),
-          "description": "Baby Bot",
-          "buttonText": "Klik Disini",
+          "title": `ᴡɪᴢᴀʀᴅ sᴇʀ  ʙʏ ᴀsʟᴜ ᴀɴᴅ ᴛᴇᴅᴢᴏ,
+┌─────❲ *ᴛᴇᴅᴢᴏ sᴇʀ* ❳
+┊
+└─────────────────❋ཻུ۪۪⸙
+  ╔════╦═══╦═══╦════╦═══╗
+  ║╔╗╔╗║╔══╩╗╔╗╠══╗═║╔═╗║
+  ╚╝║║╚╣╚══╗║║║║─╔╝╔╣║─║║
+  ──║║─║╔══╝║║║║╔╝╔╝║║─║║
+  ──║║─║╚══╦╝╚╝╠╝═╚═╣╚═╝║
+  ──╚╝─╚═══╩═══╩════╩═══╝
+       
+
+┌─────❲ ᴀʙᴏᴜᴛ ❳
+┊☞  Oi ${ucapan()}
+┊☞ 👤 *NAME* : ${name}
+┊☞ 🧭 *TIME* : ${time},
+┊☞ 💫 *WEEK* : ${week},
+┊☞ ✅ *DATE* : ${date},
+┊☞ 💝 *OWNER* : ᴛᴇᴅᴢᴏ sᴇʀ
+┊☞ 🖌️ *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
+┊☞ ☮️ *BOT NAME* : ᴛᴇᴅᴢᴏ
+└─────────────────⸙ \n\ ______`
+          
+           .trim(),
+           "description": "*DON'T SPAM*",
+          "buttonText": "Click  Here",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": "Game",
-                  "description": "",
-                  "rowId": `${_p}? game`
+                  "title": "ᴛᴇᴅᴢᴏ",
+                  "description": "tedzo ser git link",
+                  "rowId": ".git"
+                }, {
+                  "title": "💻Game",
+                  "description": "Game features",
+                  "rowId": ".? game"
 
                 }, {
-                  "title": "XP",
-                  "description": "",
-                  "rowId": `${_p}? xp`
+                  "title": "💸XP",
+                  "description": "Features level & usage limit",
+                  "rowId": ".? xp"
 
-                }, {
-                  "title": "Stiker",
-                  "description": "",
-                  "rowId": `${_p}? stiker`
-                }, {
-                  "title": "Kerang Ajaib",
-                  "description": "",
-                  "rowId": `${_p}? kerangajaib`
-                }, {
+                },  {
+                  "title": "Video Maker",
+                  "description": "Making Different Types Of Videos",
+                  "rowId": ".? .videomaker"
+
+                },{
+                  "title": "Sticker",
+                  "description": "Features for making stickers",
+                  "rowId": ".? stiker"
+                }, { 
+                "title": "Anime",
+                "description": "Anime Related Plugin",
+                "rowId": ".? anime"
+              },  {
                   "title": "Quotes",
-                  "description": "",
-                  "rowId": `${_p}? quotes`
+                  "description": "Gives You random quotes",
+                  "rowId": ".? quote"
                 }, {
                   "title": "Admin",
-                  "description": "",
-                  "rowId": `${_p}? admin`
+                  "description": "Group Admin Commands",
+                  "rowId": ".? admin"
                 }, {
                   "title": "Grup",
-                  "description": "",
-                  "rowId": `${_p}? grup`
+                  "description": "Group Related Commands",
+                  "rowId": ".? grup"
                 }, {
                   "title": "Premium",
-                  "description": "",
-                  "rowId": `${_p}? premium`
-                }, {
-                  "title": "Anime",
-                  "description": "",
-                  "rowId": `${_p}? anime`
+                  "description": "Premium Users Plugins",
+                  "rowId": ".? premium"
                 }, {
                   "title": "Internet",
-                  "description": "",
-                  "rowId": `${_p}? internet`
+                  "description": "Commands Related To Internet",
+                  "rowId": ".? internet"
                 }, {
                   "title": "Anonymous",
-                  "description": "",
-                  "rowId": `${_p}? anonymous`
+                  "description": "To Start Anonymous Chatting",
+                  "rowId": ".? anonymous"
+                }, {
+                  "title": "Magic Shell",
+                  "description": "Random answer feature",
+                  "rowId": `.? magicshell`
                 }, {
                   "title": "Nulis & Logo",
-                  "description": "",
-                  "rowId": `${_p}? nulis`
+                  "description": "Text Maker Coammnds",
+                  "rowId": ".? nulis"
                 }, {
                   "title": "Downloader",
-                  "description": "",
-                  "rowId": `${_p}? downloader`
+                  "description": "Downloading Commnds",
+                  "rowId": ".? downloader"
                 }, {
                   "title": "Tools",
-                  "description": "",
-                  "rowId": `${_p}? tools`
+                  "description": "Tool features",
+                  "rowId": ".? tools"
+                }, {
+                  "title": "Voice Changer",
+                  "description": "To change the voice",
+                  "rowId": `.? audio`
                 }, {
                   "title": "Fun",
-                  "description": "",
-                  "rowId": `${_p}? fun`
+                  "description": "Just for fun",
+                  "rowId": ".? fun"
                 }, {
                   "title": "Database",
-                  "description": "",
-                  "rowId": `${_p}? database`
-                }, {
-                  "title": "Vote & Absen",
-                  "description": "",
-                  "rowId": `${_p}? vote`
-                }, {
-                  "title": "Al-Qur\'an",
-                  "description": "",
-                  "rowId": `${_p}? quran`
-                }, {
-                  "title": "Pengubah Suara",
-                  "description": "",
-                  "rowId": `${_p}? audio`
-                }, {
-                  "title": "Jadi Bot",
-                  "description": "",
-                  "rowId": `${_p}? jadibot`
-                }, {
-                  "title": "Info",
-                  "description": "",
-                  "rowId": `${_p}? info`
-                }, {
-                  "title": "Tanpa Kategori",
-                  "description": "",
-                  "rowId": `${_p}? tanpakategori`
-                }, {
+                  "description": "User database",
+                  "rowId": ".? database"
+                },{
                   "title": "Owner",
-                  "description": "",
-                  "rowId": `${_p}? owner`
+                  "description": "Owner's special features",
+                  "rowId": ".? owner"
                 }
               ]
             }
@@ -297,14 +309,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         }
       }, {}), { waitForAck: true })
     }
-    // gunakan ini jika kamu menggunakan whatsapp bisnis
+    // use this if you use business whatsapp
     //   throw `
-    // ┌〔 DAFTAR MENU 〕
+    // ┌〔 LIST MENU 〕
     // ├ ${_p + command} all
     // ├ ${_p + command} game
     // ├ ${_p + command} xp
     // ├ ${_p + command} stiker
-    // ├ ${_p + command} kerang
     // ├ ${_p + command} quotes
     // ├ ${_p + command} admin
     // ├ ${_p + command} group
@@ -321,10 +332,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     // ├ ${_p + command} audio
     // ├ ${_p + command} jadibot
     // ├ ${_p + command} info
-    // ├ ${_p + command} tanpa kategori
     // ├ ${_p + command} owner
     // └────  
-    //     BabyBot
+    //     `.trim()
     let groups = {}
     for (let tag in tags) {
       groups[tag] = []
@@ -339,7 +349,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Presented by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -357,7 +367,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }),
       after
     ].join('\n')
-    text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : 'Baby Bot'
+    text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : ''
     let replace = {
       '%': '%',
       p: _p, uptime, muptime,
@@ -368,22 +378,21 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       exp: exp - min,
       maxexp: xp,
       totalexp: exp,
-      xp4levelup: max - exp <= 0 ? `Siap untuk *${_p}levelup*` : `${max - exp} XP lagi untuk levelup`,
+      xp4levelup: max - exp <= 0 ? `Ready for *${_p}levelup*` : `${max - exp} More XP for levelup`,
       github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
-      level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+      level, limit, name, weton, week, date, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.sendButtonLoc(m.chat, await (await fetch(`https://telegra.ph/file/446d3c03bb18807f42420.jpg`)).buffer(), text.trim(), 'Baby Bot By Julian Kastara 09', 'ok', '.ok', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://raw.githubusercontent.com/TEDZO123/TEDZO002/main/reduced_TEDZO.png")).buffer(), text.trim(), '© ᴛᴇᴅᴢᴏ sᴇʀ ©', 'Owner Bot', ',owner', 'All Commands', '.? all', m)
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
   }
 }
-handler.help = ['nyong', '?', 'help']
+handler.help = ['menu', 'help','list','wizard', '?']
 handler.tags = ['main']
-handler.command = /^(nyong|\?|help)$/i
-
+handler.command = /^(listt|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -408,19 +417,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari"
+  const time = moment.tz('Asia/Kolkata').format('HH')
+  res = "Good Morning 🌄"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Good Morning 🌞"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Good afternoon 🌅"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "Good Evening 🌆"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Good Night 🌌"
   }
   return res
 }
